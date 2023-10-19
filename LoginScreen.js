@@ -17,7 +17,7 @@ let customFonts = {
 const appIcon = require("../assets/logo.png");
 
 
-export default function CreateStoryScreen() {
+export default function LoginScreen() {
     const[fontsLoaded, setFontsLoaded] = useState(false);
     const[email, setEmail] = useState("");
     const[password, setPassword] = useState("");
